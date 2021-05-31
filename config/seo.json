@@ -1,0 +1,16 @@
+{
+  "siteMetadata": {
+    "title": "Cloud Gardener",
+    "author": {
+      "name": "Niko Virtala",
+      "summary": "is a modern technology enthusiast, Cloud Gardener, and DevOps Consultant at Polar Squad. He is also the father of two magnificent girls, husband, indie music lover, guitarist, and photographer. He loves simplicity and values a great developer experience.",
+      "homepage": "https://nikovirtala.io/"
+    },
+    "description": "The next generation of the Cloud Gardener blog.",
+    "siteUrl": "https://blog-cloudgardener.vercel.app",
+    "language": "en-US",
+    "social": {
+      "twitter": "@nikovirtala"
+    }
+  }
+}
