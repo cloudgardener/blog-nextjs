@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Layout, Bio, SEO } from "@components/common";
 import { getSortedPosts } from "@utils/posts";
 
+import { generateRssFeed } from "@utils/rss";
+
 export default function Home({ posts }) {
   return (
     <Layout>
@@ -31,6 +33,8 @@ export default function Home({ posts }) {
 
 export async function getStaticProps() {
   const posts = getSortedPosts();
+
+  await generateRssFeed();
 
   return {
     props: {
